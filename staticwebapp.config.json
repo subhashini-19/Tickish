@@ -4,6 +4,12 @@
       "route": "*",
       "redirect": "index.html",
       "statusCode": 200
+    },
+    {
+      "route": "/redirect",
+      "rewrite": "/",
+      "redirect": "index.html",
+      "statusCode": 200
     }
   ]
 }
