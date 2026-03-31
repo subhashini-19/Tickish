@@ -1,10 +1,6 @@
 {
   "routes": [
     {
-      "route": "/",
-      "redirect": "index.html"
-    },
-    {
       "route": "*",
       "redirect": "index.html"
     }
